@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 
 # Define your connection string with the ODBC driver name
 conn_string = (
-    "mssql+pyodbc://sa:test123@localhost/SQLCaseStudyDB"
+    "mssql+pyodbc://username:password@localhost/databaseName"
     "?driver=ODBC+Driver+17+for+SQL+Server"
 )
 try:
